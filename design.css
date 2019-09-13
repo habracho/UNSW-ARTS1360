@@ -48,7 +48,7 @@
 
 .mainView .background {
 	/* uncomment the line below and change the URL within the url('') section to apply a fixed background image to your lesson */
-	background: url('https://raw.githubusercontent.com/habracho/SmartSparrow/master/papers.co-vz49-polygon-blue-texture-abstract-pattern-background-8-wallpaper.jpg') no-repeat center !important;
+	background: url('https://habracho.github.io/UNSW-ARTS1360/bgorange.jpg') no-repeat center !important;
 	background-size: cover !important;
 	background-color: #02528a;
 }
