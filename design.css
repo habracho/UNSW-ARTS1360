@@ -25,8 +25,8 @@
 	padding-left: 10px;
 	border-left: 1px solid #07224b;
 }
-.checkContainer .checkBtn, .checkContainer .closeFeedbackBtn, .checkContainer .showSolnBtn {
-	background-color: #07224b !important;
+/* .checkContainer .checkBtn, .checkContainer .closeFeedbackBtn, .checkContainer .showSolnBtn {
+	background-color: #07224b !important; 
 
 }
 .checkContainer .checkBtn:focus, .checkContainer .closeFeedbackBtn:focus, .checkContainer .showSolnBtn:focus, .checkContainer .checkBtn:hover, .checkContainer .closeFeedbackBtn:hover, .checkContainer .showSolnBtn:hover, .checkContainer .checkBtn:active, .checkContainer .closeFeedbackBtn:active, .checkContainer .showSolnBtn:active {
@@ -39,7 +39,8 @@
 
 .theme-header-score {
 	color: #21323d;
-}
+} */
+
 .theme-header-score__icon {
 	background: url("https://style.smartsparrow.com/default-viewer-themes/1.7.5/assets/icon-star-light.svg") !important;
 }
