@@ -1,0 +1,58 @@
+.headerContainer {
+	background: #fffff;
+}
+.headerContainer header::before {
+	content: '';
+	display: block;
+	float: left;
+	width: 206px;
+	background: url('https://habracho.github.io/SmartSparrow/logoLearn.png') no-repeat; /* logo */
+	margin-top: -2px
+}
+
+.info-icon:not(.no-restyle) {
+	background: url('https://habracho.github.io/SmartSparrow/moreinfo.png') no-repeat center;
+	width: 32px;
+	height: 32px;
+	/* display: block; */
+	display: inline-block;
+	background-color: transparent !important;
+}
+
+.headerContainer header .lessonTitle {
+	color: #21323d;
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: 1px solid #07224b;
+}
+.checkContainer .checkBtn, .checkContainer .closeFeedbackBtn, .checkContainer .showSolnBtn {
+	background-color: #07224b !important;
+
+}
+.checkContainer .checkBtn:focus, .checkContainer .closeFeedbackBtn:focus, .checkContainer .showSolnBtn:focus, .checkContainer .checkBtn:hover, .checkContainer .closeFeedbackBtn:hover, .checkContainer .showSolnBtn:hover, .checkContainer .checkBtn:active, .checkContainer .closeFeedbackBtn:active, .checkContainer .showSolnBtn:active {
+	background-color: #02528a !important;
+	
+}
+.checkContainer .checkBtn:focus, .checkContainer .closeFeedbackBtn:focus, .checkContainer .showSolnBtn:focus, .checkContainer .checkBtn:active, .checkContainer .closeFeedbackBtn:active, .checkContainer .showSolnBtn:active {
+	box-shadow: 0 0 1px 5px rgba(192,36,36,0.2); 
+}
+
+.theme-header-score {
+	color: #21323d;
+}
+.theme-header-score__icon {
+	background: url("https://style.smartsparrow.com/default-viewer-themes/1.7.5/assets/icon-star-light.svg") !important;
+}
+
+
+.mainView .background {
+	/* uncomment the line below and change the URL within the url('') section to apply a fixed background image to your lesson */
+	background: url('https://raw.githubusercontent.com/habracho/SmartSparrow/master/papers.co-vz49-polygon-blue-texture-abstract-pattern-background-8-wallpaper.jpg') no-repeat center !important;
+	background-size: cover !important;
+	background-color: #02528a;
+}
+
+/* improve list item margin */
+.content li {
+	margin-left: 0.5em !important;
+}
