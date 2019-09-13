@@ -7,7 +7,7 @@
 	float: left;
 	width: 206px;
 	background: url('https://habracho.github.io/UNSW-ARTS1360/logoUNSW.png') no-repeat; /* logo */
-	/* margin-top: -2px */
+	margin-top: 2px
 }
 
 .info-icon:not(.no-restyle) {
